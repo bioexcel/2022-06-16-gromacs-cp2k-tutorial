@@ -12,6 +12,7 @@
 #SBATCH --distribution=block:block 
 #SBATCH --hint=nomultithread
 
+. /etc/profile
 module use /work/ta072/ta072/shared/modulefiles/gromacs2022
 module load gmx_cp2k
 
