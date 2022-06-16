@@ -2,7 +2,7 @@
 #SBATCH -J egfp-mm-nvt
 #SBATCH --time=00:20:00
 #SBATCH --partition=standard
-#SBATCH --qos=standard
+#SBATCH --qos=reservation
 #SBATCH --account=ta072
 #SBATCH --reservation=ta072_1840222
 #SBATCH --nodes=1
